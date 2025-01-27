@@ -12,3 +12,5 @@ EXPOSE 8080
 
 # Step 5: Run the JAR file when the container starts
 ENTRYPOINT ["java", "-jar", "SpringRest-Docker.jar"]
+
+#This Line changed
